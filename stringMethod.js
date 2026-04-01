@@ -38,3 +38,47 @@
 // // console.log(arr);
 // // console.log(arr);
 // // console.log(arr);
+
+
+// escape sequence character
+//  let a = 'What\'ts'
+//  let b = 'What\tts'
+//  console.log(a); // output ....... what's 
+//  console.log(b); // output ....... what   s 
+//  console.log("what\\ s"); // output ....... what\s
+
+// console.log("Hello World\rHi");
+
+// let nam = 'ali   ' 
+// console.log(nam.length);
+// console.log(nam.toLocaleLowerCase("tr"));
+// console.log(nam.toLocaleUpperCase("tr"));
+// console.log(nam.toLowerCase());
+// console.log(nam.toUpperCase());
+// console.log(nam.charAt()); // get first char of string
+// console.log(nam.charCodeAt()); // char code data ha
+// console.log(nam.codePointAt()); // char code data ha (new method)
+// console.log(nam.includes('a'));
+// console.log(nam.replace('ali' , 'osman'));  // replace string 
+// console.log(nam.indexOf('a'));
+// console.log(nam.slice(0 ,2));
+// console.log(nam.search('a'));
+// console.log(nam.startsWith('a'));
+// console.log(nam.match(/a/g));
+// console.log(nam.split('l'));
+ 
+
+// let fru = `hello\`world`
+// console.log(fru);
+// let fri = `kem`
+// console.log(nam.concat("friend ha " , fri , " ok "));
+
+// let fri = `        mena                 `
+// console.log(fri.trim());
+
+// let name2 = `kim jo hon`
+// for (let index = 0; index < name2.length; index++) {
+//    console.log(index);
+// console.log(name2[index]);
+   
+// }
