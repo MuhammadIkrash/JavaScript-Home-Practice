@@ -52,6 +52,66 @@
 //  let ab = a.slice(0,3)
 // console.log(ab);
 
-let h =[9,8,7[8,7[6,9]]]
-h.flat(Infinity)
-console.log(h);
+// let h =[9,8,7[8,7[6,9]]]
+
+// console.log(h.(Infinity));
+
+
+// arry in loop
+
+//forEach Loop 
+// let lo = [1, 3, 4, 5, 6]
+// lo.forEach((element) => {
+//     console.log(element * element);
+// });
+
+// array.form
+
+// let a = 'HihAds'
+// let v = Array.from(a)
+// console.log(v); // Array.from(a) using for make array form collection of html 
+
+// for (let index = 0; index < v.length; index++) {
+//    console.log(v[index]);
+   
+// }
+
+// forOf loop
+
+// let a = [4,5,6,7]
+
+// for (const i of a) {
+//     console.log(i);
+// }  // forOf loop is a easy way to access array element .
+
+// forin loop 
+
+// let a = [4,5,6,7]
+// let a = {
+//     a : 'b',
+//     va : 'b'
+// }
+// for (const key in a) {
+// console.log(key);  // for in using for getting key , in array index i[0] is array key . if i want to access array and object element so i use a[ky] ,
+// }
+
+
+// map 
+
+// let arr = [3,6,7,5]
+// let ab = arr.map((val , ind , ar)=>{ // arr.map((val , ind , ar)=>{} hama new array data ha . isKa ZarYa Hum Array Ki Value access kar SakTa Ha .is Ma Hum 3 arrGumEnt da KAr , array ki value , index or array ko access kar saKta ha .    
+// console.log(val , ind , ar);
+// return val + 1
+// })
+// console.log(ab);
+
+
+//filter in js 
+
+// let lo = [1, 3, 4, 5, 9, 6]
+// let loo = lo.filter((vl)=>{
+    // return vl<5 // filter wo value daTa ha jo Ya to less Dan Ho Ya Greater Than ya ToTly Hum Pir KA ka </> koNsa Function Kam Kara . 
+// })
+// console.log(loo);
+
+
