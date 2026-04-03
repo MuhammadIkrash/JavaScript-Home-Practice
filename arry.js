@@ -117,6 +117,6 @@
 
 // let ad = [43 ,4,6 ,2,1]
 // let add = ad.reduce((a ,b)=>{
-//     return a + b  // reduce add all array  
+//     return a + b  // reduce(operation) add all array  
 // })
 // console.log(add);
